@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+.sky{
+    background-color: rgb(216, 243, 252);
+    height: 49px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+a{
+    margin-right: 20px;
+    font-size: x-small;
+    text-transform: capitalize;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.wedding{
+    border-bottom: 1px solid black;
+}
+
+button{
+    display: none;
+}
+
+.main{
+    height: 74px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.title{
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+@media only screen and (min-width:1000px){
+    button{
+        display: block;
+        text-transform: capitalize;
+        background-color: #ffffff;
+        border-radius: 30px;
+        border: 2px solid rgb(173, 173, 255);
+        color: rgb(173, 173, 255);
+        height: 40px;
+        width: 150px;
+    }
+
+    button:hover{
+        background-color: rgb(173, 173, 255);
+        color: #ffffff;
+
+    }
+    
+    i {
+        display: none;
+    }
+
+    header{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: baseline;
+        height: 65px;
+    }
+
+    .title {
+        font-size: 20px;
+        letter-spacing: 4px;
+        margin-left: 35px;
+    }
+
+    .sky {
+        margin-right: 35px;
+        background-color: #ffffff;
+    }
+
+    
+}
